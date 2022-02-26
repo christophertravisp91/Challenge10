@@ -213,7 +213,7 @@ const promptIntern = () => {
     ]).then(answers => {
         console.log(answers);
         const manager = new Intern(answers.name, answers.employeeId, answers.email, answers.school);
-        teamMembers.push(intern);
+        teamMembers.push(Intern);
         promptMenu();
     })
 };
