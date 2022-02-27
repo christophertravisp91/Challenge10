@@ -42,7 +42,7 @@ const generateTeam = (team) => {
             </ul>
             </div>
         `;
-        html.push(InternHtml);
+        html.push(internHtml);
     }
 
     for (let i = 0; i < team.length; i++) {
