@@ -42,10 +42,10 @@ const generateTeam = (team) => {
             </ul>
             </div>
         `;
-        html.push(managerHtml);
+        html.push(InternHtml);
     }
 
-    for (let i = 0; i<team.length; i++) {
+    for (let i = 0; i < team.length; i++) {
         if (team[i].getRole() === "Manager") {
             generateManager(team[i]);
         }
