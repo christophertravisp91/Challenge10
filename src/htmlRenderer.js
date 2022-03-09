@@ -24,7 +24,7 @@ const generateTeam = (team) => {
             <ul class="list-group list-group-flush">
             <li class="list-group-item">ID: ${engineer.id}</li>
             <li class="list-group-item">Email: ${engineer.email}</li>
-            <li class="list-group-item">GitHub Username: ${engineer.githubUsername}</li>
+            <li class="list-group-item">GitHub Username: ${engineer.githube}</li>
             </ul>
             </div>
         `;
